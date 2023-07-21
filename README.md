@@ -72,14 +72,14 @@ Contentful은 모든 디지털 채널에서 콘텐츠를 생성, 관리 및 게�
 - 컨텐츠에 대한 상태관리
 - 이미지 리사이징 및 프리뷰 등 다양한 최적화 기능 제공
 https://www.contentful.com/
-https://app.contentful.com/spaces/b6jgybwf0ibf/content_types
+https://app.contentful.com/spaces/di8ib47nhct7/content_types?order.fieldId=name&order.direction=ascending
 
 gatsby-source-contentful
-npm install gatsby-source-contentful gatsby-plugin-image
+~ npm install gatsby-source-contentful 
 https://www.gatsbyjs.com/plugins/gatsby-source-contentful
 
 *dotenv
-npm i dotenv
+~ npm i dotenv
 
 
 -->

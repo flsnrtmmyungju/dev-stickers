@@ -20,7 +20,10 @@ export default function BlogPost({ data, children }: IBlogPostProps) {
   );
   return (
     <Layout title="">
-      <GatsbyImage image={image as any} alt={data.mdx?.frontmatter?.title} />
+      <GatsbyImage
+        image={image as any}
+        alt={String(data.mdx?.frontmatter?.title)}
+      />
       {/* 자식없으면 에러.. */}
       <div>{children}</div>
     </Layout>
