@@ -23,6 +23,7 @@ const IndexPage: React.FC<PageProps> = () => {
     <>
       <Layout title="Home">
         <p>Home {data.site?.siteMetadata?.title}</p>
+        {/* 미리 이미지주소를 알때만 사용 */}
         <StaticImage
           height={200}
           src="https://images.unsplash.com/photo-1625768376503-68d2495d78c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1450&q=80"
